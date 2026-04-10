@@ -64,7 +64,9 @@ for(const {title, encryptConfig, shouldEncrypt} of testParameters) {
     });
 
     it('gets a count of key records', async () => {
-      await helpers.clearCollection({collectionName: 'kms-module-keys'});
+      await helpers.clearCollection({
+        collectionName: MOCKS.storage.collectionName
+      });
 
       for(let i = 1; i <= 3; ++i) {
         const key = await helpers.generateKey();
