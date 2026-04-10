@@ -44,7 +44,9 @@ const testParameters = [
 for(const {title, encryptConfig, shouldEncrypt} of testParameters) {
   describe(title, () => {
     before(async () => {
-      await helpers.clearCollection({collectionName: 'kms-module-keys'});
+      await helpers.clearCollection({
+        collectionName: MOCKS.storage.collectionName
+      });
       MOCKS.storage.recordCipher = await RecordCipher.create(encryptConfig);
     });
 
