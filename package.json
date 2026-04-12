@@ -1,6 +1,6 @@
 {
   "name": "@bedrock/kms-module-key-storage",
-  "version": "1.1.0",
+  "version": "1.1.1-0",
   "type": "module",
   "description": "Bedrock WebKMS module key storage",
   "license": "SEE LICENSE IN LICENSE.md",
