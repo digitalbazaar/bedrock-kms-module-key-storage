@@ -13,7 +13,7 @@
     "@bedrock/core": "^6.3.0",
     "@bedrock/kms-module-key-storage": "file:..",
     "@bedrock/mongodb": "^11.0.1",
-    "@bedrock/record-cipher": "^1.1.0",
+    "@bedrock/record-cipher": "^1.1.1",
     "@bedrock/test": "^8.2.0",
     "bnid": "^3.0.0",
     "c8": "^10.1.3",
