@@ -1,6 +1,6 @@
 # bedrock-kms-module-key-storage ChangeLog
 
-## 1.2.0 - 2026-04-dd
+## 1.2.0 - 2026-04-16
 
 ### Added
 - Support local key IDs (`localId`) that use a different multihash header.
